@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] isimler = { "Ozlem", "Nesrin", "Ozge", "Fulya" };
+
+            foreach (string ss in isimler)
+            {
+                Console.WriteLine(ss);
+            }
+            /* foreach (string i in isimler)
+            {
+                Console.WriteLine(i);
+            } */ 
+            Console.ReadKey();
+
+        }
+    }
+}
